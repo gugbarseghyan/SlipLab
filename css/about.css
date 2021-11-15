@@ -1,0 +1,85 @@
+h1{
+    color: blue;
+}
+h1 span{
+    color: red;
+}
+.profil div{
+    display: inline-block;
+    text-align: left;
+}
+.profileImage{
+    width: 20%;
+    display: inline-block;
+}
+.profileImage img{
+    width: 55%;
+}
+.profileText{
+    display: inline-block;
+    width: 60%;
+}
+.profileText p{
+    color: blue;
+    font-size: 18px;
+}
+.profileText p span{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+.member{
+    display: inline-block;
+    max-width: 300px;
+    text-align: center;
+    padding:15px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin: 10px;
+    transform: rotateY(180deg);
+    transition: 0.3s;
+}
+.member p, h2, h3 {
+    color: blue;
+}
+.member img{
+    width: 80%;
+}
+.member:hover{
+    transform: rotateY(360deg);
+    background-color: #ff9999;
+}
+.member:hover p{
+    color: red;
+}
+.follow button{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    color: blue;
+    background-color: #00000000;
+    transition: 0.3s;
+    font-size: 40px;
+    margin: 5px;
+    transform: rotateY(180deg);
+}
+.follow button:hover{
+    transform: rotateY(360deg);
+    box-shadow: 0px 0px 5px red;
+    background-color: #ffbbbb;
+    color: red;
+}
+/* -------------------------------------- RESPONSIVE -----------------------------------------*/
+@media only screen and (max-width: 1000px){
+    .profil div{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .profileImage img{
+        width: 100px;
+    }
+}

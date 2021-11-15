@@ -1,0 +1,67 @@
+img{
+    width: 250px;
+}
+table{
+    border-collapse: collapse;
+    margin:auto;
+    border-color: blue;
+}
+table td, table th{
+    padding: 5px 15px;
+    font-size: 20px;
+}
+table th{
+    color: blue;
+}
+table td{
+    color: red;
+} 
+table button{
+    cursor: pointer;
+    padding: 5px 15px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: #00000000;
+    color: blue;
+    font-size: 20px;
+    transition: 0.3s;
+}
+table button:hover{
+    background-color: #ffaaaa;
+    /* transform: skewX(-15deg); */
+}
+body{
+    background-color: #ffdddd;
+}
+.object{
+    background-color: #00000000;
+    border: 2px solid blue;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 240px;
+    min-width: 240px;
+    transition: 0.4s;
+    padding: 10px;
+    margin: 15px 15px;
+    display: inline-block;
+}
+.object img{
+    width: 60%;
+    margin: 10px;
+}
+.object h3{
+    color: blue;
+}
+.object button{
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    background-color: #00000000;
+    color: blue;
+    cursor: pointer;
+}
+.object:hover{
+    background-color: #ff505080;
+    transform: skewX(-5deg);
+}

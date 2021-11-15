@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+h2{
+    color: blue;
+    font-size: 70px;
+    margin:0;
+}
+h2 span{
+    color: red;
+}
+h1{
+    margin: 0;
+    color: blue;
+    font-size: 150px;
+}
+h1 span{
+    color: red;
+}
