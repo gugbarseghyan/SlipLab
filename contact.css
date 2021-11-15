@@ -1,0 +1,59 @@
+img{
+    width: 200px;
+}
+form{
+    max-width: 500px;
+    padding: 30px;
+    margin: auto;
+}
+form input{
+    width: 100%;
+    border: 2px solid blue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 20px;
+}
+form textarea{
+    width: 100%;
+    max-width: 100%;
+    max-height: 300px;
+    border: 2px solid blue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 20px;
+}
+h1{
+    color: blue;
+}
+h1 span{
+    color: red;
+}
+p{
+    font-size: 20px;
+}
+iframe{
+    width: 100%;
+    height: 500px;
+    border:none;
+}
+.follow button{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border: 2px solid blue;
+    color: blue;
+    background-color: #00000000;
+    transition: 0.3s;
+    font-size: 40px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.follow button:hover{
+    transform: rotate(360deg);
+    box-shadow: 0px 0px 5px red;
+    background-color: #ffbbbb;
+    color: red;
+}
